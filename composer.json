@@ -1,0 +1,23 @@
+{
+    "name": "webforce3/microforce",
+    "description": "Youhouuu",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "matthieu vallance",
+            "email": "matthieu.vallance@vesperiagroup.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+    	"symfony/routing": "^4.0",
+        "symfony/templating": "^4.0",
+        "symfony/http-foundation": "^4.0"
+    },
+    "autoload": {
+    	"psr-4": {
+    		"MicroForce\\": "src/"
+    	}
+    }
+}
